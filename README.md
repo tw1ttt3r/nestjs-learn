@@ -12,6 +12,8 @@
     - use ```extras/Creating_a _Basic _Controller.json``` file to test app with insominia
  - 8 Use Route Parameters ```db88d56```
     - use ```extras/Use_Route_Parameters.json``` file to test app with insominia
+ - 9 Handling Request Body  Payload ```86b7601```
+    - use ```extras/Handling_Request_Body_Payload.json``` file to test app with insominia
 
 ## Installation
 
