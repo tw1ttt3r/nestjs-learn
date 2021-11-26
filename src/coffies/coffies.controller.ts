@@ -1,11 +1,23 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
+import {
+  Body,
+  Controller,
+  Delete,
+  Get,
+  Param,
+  Patch,
+  Post,
+  Query,
+} from '@nestjs/common';
 
 @Controller('coffies')
 export class CoffiesController {
   // access directly route /coffies
+  // if we receive query params, we can catch'em with @Query() decorator
+  // or use destructuring @Query() {<name-property>,... }
   @Get()
-  findAllCoffies() {
-    return 'This action returns all the coffies';
+  findAllCoffies(@Query() queryParameters: any) {
+    const { limit, offset } = queryParameters;
+    return `This action returns all the coffies with limit: ${limit} and offset: ${offset}`;
   }
   // access directly route /coffies with verb post
   // if you wanna use only one property use @Body('<property-name>') body:<type>
