@@ -16,6 +16,8 @@
     - use ```extras/Handling_Request_Body_Payload.json``` file to test app with insominia
  - 11 Handling Update and Delete Requests ```4e79f32```
     - use ```extras/Handling_Update_and_Delete_Requests.json``` file to test app with insominia
+ - 12 Implement Pagination with Query Parameters ```64a2068```
+    - use ```extras/Implement_Pagination_with_Query_Parameters.json``` file to test app with insominia
 
 ## Installation
 
