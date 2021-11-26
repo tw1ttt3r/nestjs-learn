@@ -10,6 +10,8 @@
 ## videos
  - 7 Creating a Basic Controller ```1304d03```
     - use ```extras/Creating_a _Basic _Controller.json``` file to test app with insominia
+ - 8 Use Route Parameters ```db88d56```
+    - use ```extras/Use_Route_Parameters.json``` file to test app with insominia
 
 ## Installation
 
