@@ -14,6 +14,8 @@
     - use ```extras/Use_Route_Parameters.json``` file to test app with insominia
  - 9 Handling Request Body  Payload ```86b7601```
     - use ```extras/Handling_Request_Body_Payload.json``` file to test app with insominia
+ - 11 Handling Update and Delete Requests ```4e79f32```
+    - use ```extras/Handling_Update_and_Delete_Requests.json``` file to test app with insominia
 
 ## Installation
 
