@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Body, Controller, Get, Param, Post } from '@nestjs/common';
 
 @Controller('coffies')
 export class CoffiesController {
@@ -6,6 +6,13 @@ export class CoffiesController {
   @Get()
   findAllCoffies() {
     return 'This action returns all the coffies';
+  }
+  // access directly route /coffies with verb post
+  // if you wanna use only one property use @Body('<property-name>') body:<type>
+  // or use destructuring @Body() { <property-name> }: <type>
+  @Post()
+  postInformationCoffie(@Body() body: any) {
+    return body;
   }
 
   // access directly route /coffies/flavors
